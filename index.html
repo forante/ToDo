@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>TODO</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">       
+            <h1 class="logo">TODO</h1>
+            <hr class="line"/>
+            <div class="task__row">
+                <div class="task__input-block">
+                  <form action="submit" class="task__form">
+                    <input type="text" class="task__input" placeholder="Add a task...">
+                    <button class="task__btn">Add</button>
+                  </form>
+                </div>
+                <div class="task__list-block">
+                  <ul class="task__list">
+                    <li class="task__item">задача
+                      <img src="./img/delete.svg" alt="" class="delete__icon icon">
+                      <img src="./img/done.svg" alt="" class="done__icon icon">
+                      <hr class="task__line"/>
+                    </li>
+                  </ul>                 
+                </div>
+            </div>  
+        </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
