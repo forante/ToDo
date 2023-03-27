@@ -36,21 +36,12 @@ body{
     border: 1px solid rgba(174,202,202,.4);
 }
 
-.task__row {
-    display: flex;
-    height: 85%;
-    
-}
-
-.task__input-block {
-    flex: 50%;    
+.task__input-block { 
     border-right: 1px solid rgba(174,202,202,.4);
     margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
-    justify-content: center;    
-}
-
-.task__form {
+    justify-content: center;  
 
 }
 
@@ -60,44 +51,40 @@ body{
     outline: none;font-family: Vollkorn, sans-serif;
     font-size: 22px;
     color: white;
-    margin-top: 50px;
     padding: 5px 0 5px 10px;
-   }
+}
+
 .task__btn {
     padding: 10px 40px;
     background-color:#1b1f23;
     border: 2px solid white;
+    border-radius: 5px;
     color: white;
     font-size: 15px;
     margin-left: 20px;
     cursor: pointer;
     font-weight: 700;
     transition: transform 0.5s ease;
-    margin-left: 20px;
-    
+    margin-left: 20px;   
 }
 
 .task__btn:hover {
     transform: scale(1.1);
     color: #1b1f23;
     background-color: white;
-
 }
 
-.task__list-block {
-    flex: 50%;
-    
-}
 .task__list {
     margin-top: 50px;
 }
+
 .task__item {
-    margin: 0 20px
+    margin: 15px 100px;  
 }
+
 .done__icon {
    margin-right: 10px;
 }
-
 
 .task__line {
     border: 1px solid rgba(174,202,202,.4);
