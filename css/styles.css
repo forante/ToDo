@@ -37,7 +37,6 @@ body{
 }
 
 .task__input-block { 
-    border-right: 1px solid rgba(174,202,202,.4);
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -48,7 +47,8 @@ body{
 .task__input {
     border: none;
     background: #262a2d;
-    outline: none;font-family: Vollkorn, sans-serif;
+    outline: none;
+    font-family: Vollkorn, sans-serif;
     font-size: 22px;
     color: white;
     padding: 5px 0 5px 10px;
@@ -101,4 +101,9 @@ body{
     cursor: pointer;
     transform: scale(1.1);
     opacity: 0.8;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
 }
